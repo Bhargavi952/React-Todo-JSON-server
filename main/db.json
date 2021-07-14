@@ -1,0 +1,54 @@
+{
+  "todos": [
+    {
+      "title": "Yoga - 6AM",
+      "status": false,
+      "id": 1
+    },
+    {
+      "title": "Breakfast - 7AM",
+      "status": false,
+      "id": 2
+    },
+    {
+      "title": "Laundry - 10AM",
+      "status": false,
+      "id": 3
+    },
+    {
+      "title": "Learn Aptitude",
+      "status": false,
+      "id": 4
+    },
+    {
+      "title": "Learn DSA",
+      "status": false,
+      "id": 5
+    },
+    {
+      "title": "Learn React",
+      "status": false,
+      "id": 6
+    },
+    {
+      "title": "Learn Redux",
+      "status": false,
+      "id": 7
+    },
+    {
+      "title": "Learn React 2",
+      "status": false,
+      "id": 8
+    },
+    {
+      "title": "Learn Redux 2",
+      "status": false,
+      "id": 9
+    },
+    {
+      "title": "Code",
+      "status": false,
+      "id": 10
+    }
+  ]
+}
