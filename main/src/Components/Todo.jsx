@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Button, TextField } from "@material-ui/core";
-
+import "./Todo.css";
 const Todo = () => {
   const [todos, setTodos] = useState([]);
   const [text, setText] = useState("");
@@ -51,7 +51,7 @@ const Todo = () => {
     console.log(todos);
   };
   return (
-    <div>
+    <div className="todoCont">
       {loading ? (
         "Loading..........."
       ) : error ? (
@@ -87,7 +87,7 @@ const Todo = () => {
               );
             })}
             {todos.length > 0 ? (
-              <div>
+              <div className="btn">
                 <Button
                   variant="outlined"
                   disabled={page === 1}

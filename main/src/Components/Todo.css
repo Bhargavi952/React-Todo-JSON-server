@@ -1,0 +1,15 @@
+.todoCont{
+    border: 1px solid black;
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+    background-image:linear-gradient(170deg,#793b5d 0%, #804b65 50%, #573d50 75%);
+
+}
+.todoCont  * {
+    margin: 5px
+}
+.btn > Button {
+    margin: 5px;
+    font-weight: 900;
+}
